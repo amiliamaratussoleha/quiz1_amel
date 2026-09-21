@@ -35,6 +35,17 @@
             z-index: -1;
         }
 
+        header {
+            background: rgba(26, 54, 93, 0.9);
+            color: white;
+            padding: 15px 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
         .container {
             max-width: 1000px;
             margin: 0 auto;
@@ -101,6 +112,13 @@
 </head>
 
 <body>
+
+    <header>
+        <div class="header-container">
+            <div class="brand-title">POLITEKNIK NEGERI MALANG PSDKU PAMEKASAN</div>
+            <div style="font-size: 0.9rem; opacity: 0.8;">my kampus tercinta </div>
+        </div>
+    </header>
 
     <div class="container">
         @yield('content')

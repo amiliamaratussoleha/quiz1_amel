@@ -17,9 +17,9 @@ class Kampus extends Controller
         Walau bukan kampus pusat, suasananya asri, tenang, dan kekeluargaannya dapet banget — 
         jadi belajar lebih fokus dan nyaman!";
 
-        $tentangKampus = "PSDKU POLINEMA PSDKU Pamekasan adalah Kampus cabang resmi POLINEMA di Madura yang bekerja sama dengan Pemkab Pamekasan. 
+        $tentangKampus = "POLINEMA PSDKU Pamekasan adalah Kampus cabang resmi POLINEMA di Madura yang bekerja sama dengan Pemkab Pamekasan. 
         disini Menyediakan prodi D3 Manajemen Informatika, D4 Akuntansi Manajemen, dan D4 Teknik Otomotif Elektronik.
-        Sejarah: Merupakan peningkatan status dari Program Diluar Domisili (PDD) yang dirintis sejak 2014.
+        PASDKU Pamekasan Merupakan peningkatan status dari Program Diluar Domisili (PDD) yang dirintis sejak 2014.
         Kampus ini resmi disahkan menjadi PSDKU POLINEMA oleh Mendikbud pada April 2021.";
 
         $programStudi = [

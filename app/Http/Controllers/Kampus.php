@@ -47,6 +47,29 @@ class Kampus extends Controller
         ]);
     }
 
+    public function programStudi()
+    {
+        $programStudi = [
+        "Teknologi Informasi D-3 Manajemen Informatika",
+        "Teknik Mesin D-4 Teknik Otomotif Elektronik",
+        "Akuntansi D-4 Akuntansi Manajemen"
+        ];
+
+        return view('halaman.program-studi', [
+        'programStudi' => $programStudi
+        ]);
+    }
+
+    public function fasilitas()
+    {
+        return view('halaman.fasilitas');
+    }
+
+    public function kontak()
+    {
+        return view('halaman.kontak');
+    }
+
     public function coba()
     {
         return view('bootstrap.coba');

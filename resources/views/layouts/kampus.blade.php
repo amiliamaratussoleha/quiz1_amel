@@ -7,7 +7,10 @@
 
     <title>@yield('title', 'Polinema PSDKU Pamekasan')</title>
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+   @vite([
+    'resources/css/app.css', 
+    'resources/css/kampus.css', 
+    'resources/js/app.js'])
 </head>
 
 <body>
@@ -28,9 +31,15 @@
             <a href="{{ route('tentang') }}">
                 Tentang
             </a>
-            <a href="#">Program Studi</a>
-            <a href="#">Fasilitas</a>
-            <a href="#">Kontak</a>
+            <a href="{{ route('program-studi') }}">
+                Program Studi
+            </a>
+            <a href="{{ route('fasilitas') }}">
+                Fasilitas
+            </a>
+            <a href="{{ route('kontak') }}">
+                Kontak
+            </a>
         </nav>
     </header>
 

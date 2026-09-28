@@ -8,9 +8,25 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/kampus', [Kampus::class, 'index'])->name('kampus');
+Route::get('/kampus', [Kampus::class, 'index'])
+    ->middleware('auth')
+    ->name('kampus');
 
-Route::get('/tentang', [Kampus::class, 'tentang'])->name('tentang');
+Route::get('/tentang', [Kampus::class, 'tentang'])
+    ->middleware('auth')
+    ->name('tentang');
+
+Route::get('/program-studi', [Kampus::class, 'programStudi'])
+    ->middleware('auth')
+    ->name('program-studi');
+
+Route::get('/fasilitas', [Kampus::class, 'fasilitas'])
+    ->middleware('auth')
+    ->name('fasilitas');
+
+Route::get('/kontak', [Kampus::class, 'kontak'])
+    ->middleware('auth')
+    ->name('kontak');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

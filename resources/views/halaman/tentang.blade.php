@@ -9,7 +9,7 @@
     <div class="page-header-content">
 
         <span class="page-badge">
-            Tentang Kami
+            Tentang KAmpus ku
         </span>
 
         <h1>
@@ -17,7 +17,7 @@
         </h1>
 
         <p>
-            Mengenal lebih dekat kampus, lingkungan pendidikan,
+            Mengenal lebih dekat kampus ku yuk, lingkungan pendidikan,
             serta tujuan hadirnya Politeknik Negeri Malang PSDKU Pamekasan.
         </p>
 
@@ -31,7 +31,7 @@
     <div class="about-image">
 
         <img
-            src="{{ asset('images/polinema.jpeg') }}"
+            src="{{ asset('images/polinemaa.jpeg') }}"
             alt="Polinema PSDKU Pamekasan"
         >
 
@@ -41,7 +41,7 @@
     <div class="about-content">
 
         <span class="section-label">
-            Tentang Kampus
+            Tentang Kampus Ku
         </span>
 
         <h2>

@@ -9,11 +9,11 @@
     <div class="page-header-content">
 
         <span class="page-badge">
-            Kontak
+           Ini Halaman Kontak Kampusku yaa
         </span>
 
         <h1>
-            Hubungi Kami
+            Hubungi Kampus ku
         </h1>
 
         <p>
@@ -31,11 +31,11 @@
     <div class="contact-info">
 
         <span class="section-label">
-            Informasi Kontak
+            Informasi Kontak kampus
         </span>
 
         <h2>
-            Kami Siap Membantu
+            kami Siap Membantu
         </h2>
 
         <p>
@@ -55,7 +55,8 @@
                 <h3>Alamat</h3>
 
                 <p>
-                    Politeknik Negeri Malang PSDKU Pamekasan
+                    Jl. Stadion No.IX/03 (atau Jl. Letnan Maksum No.3), Ombul, Lawangan Daya, 
+                    Kec. Pademawu, Kabupaten Pamekasan, Jawa Timur 69323
                 </p>
             </div>
 
@@ -72,7 +73,7 @@
                 <h3>Telepon</h3>
 
                 <p>
-                    Informasi kontak kampus
+                    +62 853-3022-5251
                 </p>
             </div>
 
@@ -89,7 +90,7 @@
                 <h3>Email</h3>
 
                 <p>
-                    Informasi email kampus
+                    info@polinema.ac.id
                 </p>
             </div>
 

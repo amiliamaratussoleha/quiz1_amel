@@ -31,7 +31,7 @@
     <div class="facility-title">
 
         <span class="section-label">
-            Fasilitas
+            Fasilitas Kampus Ku
         </span>
 
         <h2>
